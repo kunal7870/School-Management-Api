@@ -1,15 +1,15 @@
-##School Management API
+## School Management API
 
 A minimalist Node.js and Express.js API designed to manage school data, focusing on adding new schools and retrieving a list of schools sorted by distance to a given location.
 
-##Features
+## Features
 
 Add School: Create a new school entry with details like name, address and geographic coordinates.
 
 List Schools by distance: Retrieve a list of all schools, sorted by their distance from a specified latitude and longitude.
 
 
-##Technologies Used
+## Technologies Used
 
 Backend: Node.js, Express.js
 
@@ -17,8 +17,8 @@ Database: MySql
 
 Environment Variables: Managed using .env files
 
-##API ENDPOINTS 
-###Add a New School
+## API ENDPOINTS 
+### Add a New School
 
 Endpoint: POST /addschool
 
@@ -42,7 +42,7 @@ Response:
 }
 
 
-###List Schools by PROXIMITY
+### List Schools by PROXIMITY
 
 Endpoint: GET /listSchools?latitude=12.9716&longitude=77.5946
 
