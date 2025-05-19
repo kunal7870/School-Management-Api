@@ -1,4 +1,5 @@
 ## School Management API
+( My free SQL hosting account has expired, which may result in a database error. Please feel free to use your own credentials or a local MySQL instance for testing.b)
 
 A minimalist Node.js and Express.js API designed to manage school data, focusing on adding new schools and retrieving a list of schools sorted by distance to a given location.
 
